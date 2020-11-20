@@ -12,7 +12,7 @@ module.exports = function (app, chalk) {
     });
 
     app.post('/webhook', function (req, res) {
-        //checking for page subscription.
+        // Check for page subscription
         if (req.body.object === 'page') {
 
             /* Iterate over each entry, there can be multiple entries 
