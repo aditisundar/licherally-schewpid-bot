@@ -1,0 +1,12 @@
+{
+  "name": "licherally-schewpid-bot",
+  "version": "0.0.1",
+  "description": "Are you licherally schewpid?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Aditi Sundararaman",
+  "license": "ISC"
+}
